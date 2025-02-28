@@ -42,3 +42,4 @@ requests==2.31.0
 scikit-learn==1.5.1
 scipy==1.15.1
 screen_brightness_control==0.24.2
+uvicorn==0.34.0
