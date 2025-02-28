@@ -45,3 +45,9 @@ six==1.17.0
 sounddevice==0.5.1
 streamlit==1.32.2
 uvicorn==0.34.0
+opencv-python-headless
+pyclipper
+python-bidi
+shapely
+torch
+torchvision
