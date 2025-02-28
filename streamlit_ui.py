@@ -7,7 +7,9 @@ movie_name = st.text_input("Enter a movie name:")
 user_id = st.number_input("Enter User ID:", min_value=1, step=1)
 
 if st.button("Get Recommendations"):
-    response = requests.get(f"http://127.0.0.1:8000/recommend/?user_id={user_id}&title={movie_name}")
+    FASTAPI_URL = "https://your-fastapi-app.onrender.com"  # Replace with your Render URL
+    response = requests.get(f"{FASTAPI_URL}/recommend/?user_id={user_id}&title={movie_name}")
+
     
     if response.status_code == 200:
         result = response.json()
