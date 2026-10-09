@@ -73,5 +73,3 @@ streamlit run streamlit_ui.py
 ## Project Purpose
 
 This project was developed as a practical exploration of recommendation systems, similarity-based retrieval, API development and basic ML-based personalization. It is retained as part of my broader software and machine-learning portfolio rather than my current primary research direction.
-
-[GitHub Profile](https://github.com/AryanAditta) · [EDA Academic Profile](https://aryanaditta.github.io/eda-academic/)
